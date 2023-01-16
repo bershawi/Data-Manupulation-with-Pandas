@@ -22,10 +22,10 @@ Take Hint (-30 XP)
 print(temperatures.iloc[22, 1])
 
 # Use slicing to get the first 5 rows
-print(temperatures.iloc[0:5, :])
+print(temperatures.iloc[:6])
 
 # Use slicing to get columns 3 to 4
-print(temperatures.iloc[:, 2:4])
+print(temperatures.iloc[:, 2:5])
 
 # Use slicing in both directions at once
 print(temperatures.iloc[0:5, 2:4])
